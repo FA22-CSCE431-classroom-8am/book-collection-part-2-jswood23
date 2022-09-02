@@ -28,7 +28,7 @@
 
   <div class="field">
     <%= form.label "Date of publication" %>
-    <%= form.date_select :published %>
+    <%= form.date_select :published, start_year: Date.today.year, end_year: Date.today.year - 200 %>
   </div>
 
   <div class="actions">
