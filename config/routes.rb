@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :user_books
   resources :users
 
-  resources books do
+  resources :books do
     member do
       get :delete
     end
