@@ -28,8 +28,23 @@ books = Book.create([
 ])
 
 users = User.create([
-  { username: 'jswood' },
-  { username: 'howdy' },
-  { username: 'maroon' },
-  { username: 'whoop' }
+  {
+    username: 'jswood'
+  },
+  {
+    username: 'howdy'
+  },
+  {
+    username: 'maroon'
+  },
+  {
+    username: 'whoop'
+  },
+])
+
+user_books = UserBook.create([
+  {
+    user_id: 1,
+    book_id: 1
+  },
 ])
